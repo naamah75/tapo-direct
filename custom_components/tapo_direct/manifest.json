@@ -1,16 +1,16 @@
 {
+  "domain": "tapo_direct",
+  "name": "Tapo Direct",
   "codeowners": [
     "@naamah75"
   ],
   "config_flow": true,
   "documentation": "https://github.com/naamah75/tapo-direct",
-  "domain": "tapo_direct",
   "integration_type": "device",
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/naamah75/tapo-direct/issues",
-  "name": "Tapo Direct",
   "requirements": [
-    "python-kasa[speedups]==0.11.0.1"
+    "python-kasa[speedups]==0.12.0"
   ],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
