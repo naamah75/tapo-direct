@@ -1,9 +1,6 @@
 {
   "domain": "tapo_direct",
   "name": "Tapo Direct",
-  "categories": [
-    "light"
-  ],
   "codeowners": [
     "@naamah75"
   ],
@@ -13,7 +10,7 @@
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/naamah75/tapo-direct/issues",
   "requirements": [
-    "python-kasa[speedups]==0.12.0"
+    "python-kasa[speedups]>=0.12.0"
   ],
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
