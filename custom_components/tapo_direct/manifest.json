@@ -1,6 +1,9 @@
 {
   "domain": "tapo_direct",
   "name": "Tapo Direct",
+  "categories": [
+    "light"
+  ],
   "codeowners": [
     "@naamah75"
   ],
@@ -12,5 +15,5 @@
   "requirements": [
     "python-kasa[speedups]==0.12.0"
   ],
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
