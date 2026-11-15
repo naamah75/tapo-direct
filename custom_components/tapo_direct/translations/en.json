@@ -1,0 +1,22 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "This bulb is already configured"
+    },
+    "error": {
+      "cannot_connect": "Unable to connect using direct KLAP v2",
+      "invalid_auth": "Invalid TP-Link credentials"
+    },
+    "step": {
+      "user": {
+        "data": {
+          "host": "Host",
+          "password": "TP-Link password",
+          "username": "TP-Link username"
+        },
+        "description": "Uses a fixed KLAP v2 connection without discovery.",
+        "title": "Connect a Tapo bulb directly"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Questa lampadina è già configurata"
+    },
+    "error": {
+      "cannot_connect": "Impossibile connettersi tramite KLAP v2 diretto",
+      "invalid_auth": "Credenziali TP-Link non valide"
+    },
+    "step": {
+      "user": {
+        "data": {
+          "host": "Host",
+          "password": "Password TP-Link",
+          "username": "Nome utente TP-Link"
+        },
+        "description": "Usa una connessione KLAP v2 fissa senza discovery.",
+        "title": "Connetti direttamente una lampadina Tapo"
+      }
+    }
+  }
+}
